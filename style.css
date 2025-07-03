@@ -17,6 +17,8 @@ header {
 .logo {
   max-width: 100px;
   margin-bottom: 10px;
+  position: left;
+  
 }
 
 nav {
