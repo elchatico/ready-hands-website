@@ -203,9 +203,11 @@ header {
   font-size: 1rem;
 }
 .logo {
-  width: 150px;     /* Increase logo size */
+  width: 200px;
   height: auto;
+  max-width: 100%;
 }
+
 
 .header-text h1 {
   font-size: 3.2rem;   /* Bigger title */
@@ -214,10 +216,20 @@ header {
 }
 
 .header-text p {
-  font-size: 2.2rem;   /* Bigger subtext */
+  font-size: 1.5rem;   /* Bigger subtext */
   margin-top: 7px;
   font-weight: 600;
 }
 header {
   padding: 2rem 1.5rem;
+}
+body {
+  padding-bottom: 50px;
+}
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #fefefe;
+  color: #333;
+  padding-bottom: 100px; /* 👈 This is the magic */
 }
