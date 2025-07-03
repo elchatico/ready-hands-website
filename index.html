@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!-- AOS Library CSS -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Ready Hands Initiative</title>
@@ -35,24 +38,23 @@
     <p>Phone: 0702 093 678</p>
     <p>Instagram: @readyhands.ke</p>
   </section>
-
   <footer>
     <p>&copy; 2025 Ready Hands Initiative</p>
   </footer>
+  <!-- AOS Library Script -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
 </body>
 </html>
-<section id="welcome">
-  <div class="hero">
-    <h1>Welcome to Ready Hands Initiative</h1>
-    <p class="tagline">Empowering young minds with life-saving skills.</p>
-    <p class="intro">
-      At Ready Hands Initiative, we believe that every student has the power to save a life.
-      Through practical, school-based first aid training, we’re preparing the next generation of lifesavers —
-      right here in Kenya. Join us in transforming confidence into action, and knowledge into heroism.
-    </p>
-    <a href="#program" class="btn">Explore Our Program</a>
-  </div>
+<section class="welcome" data-aos="fade-up">
+  <h2>Welcome</h2>
+  <p>We train students with practical first aid knowledge...</p>
+  <a href="program.html" class="btn" data-aos="zoom-in">Explore Our Training</a>
 </section>
+
 <nav>
   <a href="index.html">Home</a>
   <a href="about.html">About</a>
