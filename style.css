@@ -174,3 +174,31 @@ footer {
   text-align: center;
   padding: 1rem;
 }
+header {
+  background: linear-gradient(to right, #d62828, #e63946);
+  color: white;
+  padding: 1.5rem;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.logo {
+  width: 70px;
+  height: auto;
+}
+
+.header-text h1 {
+  font-size: 1.6rem;
+  margin: 0;
+}
+
+.header-text p {
+  margin: 4px 0 0;
+  font-size: 1rem;
+}
