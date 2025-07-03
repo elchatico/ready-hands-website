@@ -202,3 +202,22 @@ header {
   margin: 4px 0 0;
   font-size: 1rem;
 }
+.logo {
+  width: 150px;     /* Increase logo size */
+  height: auto;
+}
+
+.header-text h1 {
+  font-size: 3.2rem;   /* Bigger title */
+  margin: 0;
+  font-weight: 800;
+}
+
+.header-text p {
+  font-size: 2.2rem;   /* Bigger subtext */
+  margin-top: 7px;
+  font-weight: 600;
+}
+header {
+  padding: 2rem 1.5rem;
+}
