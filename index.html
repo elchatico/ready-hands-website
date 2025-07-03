@@ -1,98 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- AOS Library CSS -->
-<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Ready Hands Initiative</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-  <header>
-    <img src="images/logo.png" alt="Ready Hands Logo" class="logo" />
-    <h1>Ready Hands Initiative</h1>
-    <p>Empowering students with life-saving skills</p>
-  </header>
-
-  <nav>
-    <a href="#about">About</a>
-    <a href="#program">Our Program</a>
-    <a href="#contact">Contact</a>
-  </nav>
-
-  <section id="about">
-    <h2>About Us</h2>
-    <p>Ready Hands Initiative is a youth-led first aid training program based in Kenya. We teach students practical emergency response skills through school club sessions.</p>
-  </section>
-
-  <section id="program">
-    <h2>Our Program</h2>
-    <p>We offer a 6-week training course covering first aid basics, bleeding, burns, CPR, safety planning, and more. Each session is interactive and hands-on.</p>
-  </section>
-
-  <section id="contact">
-    <h2>Contact Us</h2>
-    <p>Email: readyhandsinitiative.ke@gmail.com</p>
-    <p>Phone: 0702 093 678</p>
-    <p>Instagram: @readyhands.ke</p>
-  </section>
-  <footer>
-    <p>&copy; 2025 Ready Hands Initiative</p>
-  </footer>
-  <!-- AOS Library Script -->
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script>
-  AOS.init();
-</script>
-
-</body>
-</html>
-<section class="welcome" data-aos="fade-up">
-  <h2>Welcome</h2>
-  <p>We train students with practical first aid knowledge...</p>
-  <a href="program.html" class="btn" data-aos="zoom-in">Explore Our Training</a>
-</section>
-
-<nav>
-  <a href="index.html">Home</a>
-  <a href="about.html">About</a>
-  <a href="program.html">Our Program</a>
-  <a href="#contact">Contact</a>
-  <a href="book.html">Book a Session</a>
-</nav>
-<!DOCTYPE html>
-<html lang="en">
-<head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Ready Hands Initiative</title>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
+
+  <!-- AOS Animation Library -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 </head>
 <body>
-  <header>
-    <img src="images/logo.png" alt="Ready Hands Logo" class="logo" />
-    <h1>Ready Hands Initiative</h1>
-    <p>Empowering young minds with life-saving skills</p>
+  <header data-aos="fade-down">
+    <img src="images/logo.png" alt="Ready Hands Logo" class="logo" data-aos="zoom-in" />
+    <h1 data-aos="fade-up">Ready Hands Initiative</h1>
+    <p data-aos="fade-up" data-aos-delay="200">Empowering young minds with life-saving skills</p>
   </header>
 
   <nav>
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="program.html">Program</a>
-    <a href="book.html">Book</a>
+    <a href="index.html" data-aos="fade-down">Home</a>
+    <a href="about.html" data-aos="fade-down" data-aos-delay="100">About</a>
+    <a href="program.html" data-aos="fade-down" data-aos-delay="200">Program</a>
+    <a href="book.html" data-aos="fade-down" data-aos-delay="300">Book</a>
   </nav>
 
-  <section class="welcome">
+  <section class="welcome" data-aos="fade-up">
     <h2>Welcome</h2>
-    <p>We train students with practical first aid knowledge through engaging, weekly school sessions. Learn how to save lives — the youth way.</p>
-    <a href="program.html" class="btn">Explore Our Training</a>
+    <p data-aos="fade-up" data-aos-delay="150">
+      We train students with practical first aid knowledge through engaging, weekly school sessions.
+      Learn how to save lives — the youth way.
+    </p>
+    <a href="program.html" class="btn" data-aos="zoom-in-up" data-aos-delay="300">Explore Our Training</a>
   </section>
 
-  <footer>
+  <footer data-aos="fade-up">
     <p>&copy; 2025 Ready Hands Initiative | All rights reserved.</p>
   </footer>
+
+  <!-- AOS Script -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>
