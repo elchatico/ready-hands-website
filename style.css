@@ -110,3 +110,65 @@ footer {
     width: 100%;
   }
 }
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #fefefe;
+  color: #333;
+}
+
+header {
+  background: linear-gradient(to right, #d62828, #e63946);
+  text-align: center;
+  color: white;
+  padding: 2rem;
+}
+
+.logo {
+  max-width: 80px;
+  margin-bottom: 10px;
+}
+
+nav {
+  background: #003049;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 1rem;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+section.welcome {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+}
+
+.btn {
+  background-color: #d62828;
+  color: white;
+  padding: 0.8rem 1.5rem;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background-color: #b51c1c;
+}
+
+footer {
+  background-color: #003049;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
