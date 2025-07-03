@@ -5,21 +5,33 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Our Program - Ready Hands Initiative</title>
   <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 </head>
 <body>
-  <header>
-    <img src="images/logo.png" alt="Ready Hands Logo" class="logo" />
-
-    <h1>Our First Aid Training Program</h1>
-    <p>Hands-on learning for lifesaving action</p>
+  <header data-aos="fade-down">
+    <img src="images/logo.png" alt="Ready Hands Logo" class="logo" data-aos="zoom-in" />
+    <h1 data-aos="fade-up">Our First Aid Training Program</h1>
+    <p data-aos="fade-up" data-aos-delay="200">Hands-on learning for lifesaving action</p>
   </header>
 
-  <section>
+  <nav>
+    <a href="index.html" data-aos="fade-down">Home</a>
+    <a href="about.html" data-aos="fade-down" data-aos-delay="100">About</a>
+    <a href="program.html" data-aos="fade-down" data-aos-delay="200">Program</a>
+    <a href="book.html" data-aos="fade-down" data-aos-delay="300">Book</a>
+  </nav>
+
+  <section data-aos="fade-up">
     <h2>What We Offer</h2>
-    <p>Our 6-week training program is delivered through school-based club sessions, each lasting 45–60 minutes. The sessions are designed to be practical, interactive, and age-appropriate — empowering learners with real skills for real emergencies.</p>
+    <p>
+      Our 6-week training program is delivered through school-based club sessions, each lasting 45–60 minutes.
+      The sessions are designed to be practical, interactive, and age-appropriate — empowering learners with real
+      skills for real emergencies.
+    </p>
   </section>
 
-  <section>
+  <section data-aos="fade-right">
     <h2>Program Breakdown</h2>
     <ul>
       <li><strong>Week 1:</strong> Introduction to First Aid & Recovery Position</li>
@@ -31,7 +43,7 @@
     </ul>
   </section>
 
-  <section>
+  <section data-aos="fade-left">
     <h2>Learning Outcomes</h2>
     <ul>
       <li>Understand the basics of First Aid and emergency response</li>
@@ -42,11 +54,19 @@
     </ul>
   </section>
 
-  <section>
+  <section data-aos="fade-up">
     <h2>Certifications</h2>
-    <p>All students who complete the full program will receive a Certificate of Participation. Outstanding students may be selected as First Aid Ambassadors in their schools.</p>
+    <p>
+      All students who complete the full program will receive a Certificate of Participation.
+      Outstanding students may be selected as First Aid Ambassadors in their schools.
+    </p>
   </section>
 
-  <footer>
+  <footer data-aos="fade-up">
     <p>&copy; 2025 Ready Hands Initiative | All rights reserved.</p>
-  </footer
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init();</script>
+</body>
+</html>

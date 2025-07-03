@@ -5,17 +5,29 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Book a Training - Ready Hands Initiative</title>
   <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 </head>
 <body>
-  <header>
-    <img src="images/logo.png" alt="Ready Hands Logo" class="logo" />
-    <h1>Book a Training Session</h1>
-    <p>We'd love to bring Ready Hands to your school or organization!</p>
+  <header data-aos="fade-down">
+    <img src="images/logo.png" alt="Ready Hands Logo" class="logo" data-aos="zoom-in" />
+    <h1 data-aos="fade-up">Book a Training Session</h1>
+    <p data-aos="fade-up" data-aos-delay="200">We'd love to bring Ready Hands to your school or institution!</p>
   </header>
 
-  <section>
+  <nav>
+    <a href="index.html" data-aos="fade-down">Home</a>
+    <a href="about.html" data-aos="fade-down" data-aos-delay="100">About</a>
+    <a href="program.html" data-aos="fade-down" data-aos-delay="200">Program</a>
+    <a href="book.html" data-aos="fade-down" data-aos-delay="300">Book</a>
+  </nav>
+
+  <section data-aos="fade-up">
     <h2>How to Book</h2>
-    <p>Ready Hands Initiative offers flexible, school-friendly sessions. You can book a club visit, a one-day training, or a special school-wide demonstration.</p>
+    <p>
+      Ready Hands Initiative offers flexible, school-friendly sessions. You can book a club visit, special day training,
+      or assembly demo.
+    </p>
     <ul>
       <li><strong>Email:</strong> <a href="mailto:readyhandsinitiative.ke@gmail.com">readyhandsinitiative.ke@gmail.com</a></li>
       <li><strong>Phone/WhatsApp:</strong> <a href="https://wa.me/254702093678" target="_blank">0702 093 678</a></li>
@@ -23,11 +35,27 @@
     </ul>
   </section>
 
-  <section>
+  <section data-aos="zoom-in">
     <h2>Want Us to Reach Out?</h2>
-    <form action="https://formsubmit.co/readyhandsinitiative.ke@email.com" method="POST">
+    <form action="https://formsubmit.co/your@email.com" method="POST">
       <label for="name">Your Name:</label><br />
       <input type="text" id="name" name="name" required><br /><br />
 
       <label for="school">School or Organization:</label><br />
-      <input type="text" id="s
+      <input type="text" id="school" name="school" required><br /><br />
+
+      <label for="message">Message:</label><br />
+      <textarea id="message" name="message" rows="4" required></textarea><br /><br />
+
+      <button type="submit" class="btn">Submit Booking Request</button>
+    </form>
+  </section>
+
+  <footer data-aos="fade-up">
+    <p>&copy; 2025 Ready Hands Initiative | All rights reserved.</p>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init();</script>
+</body>
+</html>

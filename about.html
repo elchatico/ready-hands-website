@@ -5,24 +5,52 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>About Us - Ready Hands Initiative</title>
   <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 </head>
 <body>
-  <header>
-    <img src="images/logo.png" alt="Ready Hands Logo" class="logo" />
-    <h1>About Ready Hands Initiative</h1>
+  <header data-aos="fade-down">
+    <img src="images/logo.png" alt="Ready Hands Logo" class="logo" data-aos="zoom-in" />
+    <h1 data-aos="fade-up">About Ready Hands Initiative</h1>
   </header>
 
-  <section>
+  <nav>
+    <a href="index.html" data-aos="fade-down">Home</a>
+    <a href="about.html" data-aos="fade-down" data-aos-delay="100">About</a>
+    <a href="program.html" data-aos="fade-down" data-aos-delay="200">Program</a>
+    <a href="book.html" data-aos="fade-down" data-aos-delay="300">Book</a>
+  </nav>
+
+  <section data-aos="fade-up">
+    <h2>Who We Are</h2>
     <p>
-      Ready Hands Initiative is a youth-led first aid training program founded in Kenya. Our mission is to equip students with the skills, knowledge, and courage to respond confidently in emergencies — both in school and at home.
-    </p>
-    <p>
-      We believe that young people don’t have to wait to become doctors to save lives. Through practical, engaging, and school-friendly sessions, we are training the next generation of lifesavers.
+      Ready Hands Initiative is a youth-led first aid training organization based in Kenya.
+      Our mission is to equip students with real-life emergency response skills that save lives —
+      one classroom, one session, one brave student at a time.
     </p>
   </section>
 
-  <footer>
-    <p>&copy; 2025 Ready Hands Initiative</p>
+  <section data-aos="fade-right">
+    <h2>Our Vision</h2>
+    <p>
+      To empower a generation of confident, skilled young responders who can take charge during emergencies
+      at home, school, or in the community.
+    </p>
+  </section>
+
+  <section data-aos="fade-left">
+    <h2>Our Journey</h2>
+    <p>
+      Born from a passion to create change, Ready Hands Initiative began as an idea during paramedic training.
+      Today, it’s a growing movement of education, action, and student-led safety across Kenya.
+    </p>
+  </section>
+
+  <footer data-aos="fade-up">
+    <p>&copy; 2025 Ready Hands Initiative | All rights reserved.</p>
   </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init();</script>
 </body>
 </html>
