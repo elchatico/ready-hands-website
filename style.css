@@ -22,17 +22,37 @@ header {
 }
 
 nav {
-  background: #003049;
-  padding: 10px;
-  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff; /* Add a background to avoid overlap issues */
+  z-index: 1000; /* Keeps it above other content */
 }
-
+@media (max-width: 768px) {
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+nav a {
+  text-decoration: none;
+  color: #333;
+  padding: 10px 15px;
+}
+nav a:hover {
+  color: #007BFF;
+  background-color: #f0f0f0;
+}
 nav a {
   color: #fff;
   margin: 0 15px;
   text-decoration: none;
 }
-
+body {
+  padding-top: 60px; /* Adjust based on nav height */
+}
 section {
   padding: 20px;
   background: #fff;
@@ -245,4 +265,61 @@ body {
 
 .btn:hover {
   background-color: #128C7E;
+}
+.carousel {
+  display: flex;
+  overflow-x: scroll;
+  gap: 20px;
+}
+.carousel-item {
+  min-width: 300px;
+  padding: 20px;
+  background-color: #f0f0f0;
+}@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+.fade-in {
+  animation: fadeIn 1s ease-in;
+}.card-container {
+  display: flex;
+  justify-content: space-around;
+}
+.card {
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  border-radius: 10px;
+}.cta-button {
+  background-color: #007BFF;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}@media (max-width: 768px) {
+  .card-container {
+    flex-direction: column;
+  }
+  .hero-content {
+    font-size: 80%;
+  }
+}.header-text h1 {
+  font-size: clamp(1.5rem, 5vw, 2.8rem);
+  font-weight: 700;
+  margin: 0;
+}
+
+.header-text p {
+  font-size: clamp(1rem, 3vw, 1.5rem);
+  font-weight: 500;
+  margin: 4px 0 0;
+}
+@media (max-width: 600px) {
+  .header-text {
+    text-align: center;
+  }
+  .header-left {
+    flex-direction: column;
+    align-items: center;
+  }
 }
